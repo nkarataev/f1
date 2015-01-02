@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)editingWasEnd:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textFieldPNR;
+- (IBAction)buttonPressed:(id)sender;
+
+
 
 @end
 
