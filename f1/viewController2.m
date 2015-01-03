@@ -16,9 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.text2.text = self.thisValue;
-
-    
+    [_webText loadHTMLString: _thisValue baseURL:nil];
     // Do any additional setup after loading the view.
 }
 

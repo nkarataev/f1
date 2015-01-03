@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSMutableData *receivedData;
+    NSString *datas;
+}
 
 - (IBAction)editingWasEnd:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldPNR;
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 - (IBAction)buttonPressed:(id)sender;
-
-
 
 @end
 

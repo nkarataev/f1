@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface viewController2 : UIViewController
-@property (strong, nonatomic) IBOutlet UILabel *textLabel;
-@property (assign, nonatomic) IBOutlet UITextField *text2;
+
+
+@property (weak, nonatomic) IBOutlet UIWebView *webText;
 @property (strong, nonatomic) NSString *thisValue;
 @end
